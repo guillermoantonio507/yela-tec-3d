@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>YELA TEC 3D</title>
+
+    <!-- Ícono y estilos -->
+    <link rel="icon" href="/logo-yela.png" type="image/png" />
+    <meta name="theme-color" content="#a60032" />
+    <meta name="description" content="YELA TEC 3D — Educación ecológica y tecnológica con IA integrada" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Preload de recursos clave -->
+    <link rel="preload" as="image" href="/logo-yela.png" />
+    <link rel="preload" as="fetch" href="/modelos-3d/mapa-interactivo.glb" crossorigin="anonymous" />
+
+    <!-- Tipografía opcional (puedes cambiarla por otra si quieres estilo más moderno) -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+
+  <body style="margin: 0; background-color: #000; font-family: 'Rubik', sans-serif;">
+    <noscript>YELA TEC 3D requiere JavaScript para funcionar correctamente.</noscript>
+    
+    <!-- Contenedor principal de la app React -->
+    <div id="root"></div>
+
+    <!-- Script principal de React -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

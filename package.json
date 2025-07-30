@@ -1,0 +1,18 @@
+{
+  "name": "yela-tec-3d",
+  "version": "1.0.0",
+  "description": "YELA TEC 3D - Aplicación educativa con IA y gráficos 3D hiperrealistas",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9",
+    "@vitejs/plugin-react": "^4.0.0"
+  }
+}
